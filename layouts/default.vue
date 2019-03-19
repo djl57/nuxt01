@@ -6,15 +6,19 @@
     <el-main>
       <nuxt />
     </el-main>
-    <el-footer>Footer</el-footer>
+    <el-footer height="100%">
+      <m-footer></m-footer>
+    </el-footer>
   </el-container>
 </template>
 
 <script>
 import MHeader from '@/components/base/header/index.vue'
+import MFooter from '@/components/base/footer/index.vue'
 export default {
   components: {
-    MHeader
+    MHeader,
+    MFooter
   }
 }
 </script>
